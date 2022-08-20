@@ -5,25 +5,37 @@
     border: 0px;
     padding: 0px;
 }
-header{
+.cabecalho{
     background-color: #ead7d4;
-    width: 100%;
-}
-.menu{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-}
-nav > a {
-    padding: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .logo{
     max-height:200px;
     max-width: 200px;
-    padding: 20px;
+    align-self: center;
+    margin-bottom: 50px;
 }
 .thayla-store{
-    max-width: 800px;
-    padding-bottom: 50px;
+    max-width: 100%;
+    max-height: 40%;
+    align-self: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+nav{
+    background-color: #ead7d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    column-gap: 30px;
+}
+a{
+    color: #b27c72;
+    text-decoration: none;
 }
 body{
     background-color:#b27c72;
